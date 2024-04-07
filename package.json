@@ -1,0 +1,26 @@
+{
+  "name": "it-currency-converter",
+  "version": "1.0.0",
+  "description": "first package currency convert",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiragjain-0/it-cuurency-converter.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "chirag jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiragjain-0/it-cuurency-converter/issues"
+  },
+  "homepage": "https://github.com/chiragjain-0/it-cuurency-converter#readme",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
