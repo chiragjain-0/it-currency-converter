@@ -6,6 +6,7 @@ const freecurrencyapi = new Freecurrencyapi('fca_live_VbsGyIOCgvkyxiOyIe5bZQrYom
 convertCurency( 'USD','INR', 3)
 
 
+// convert currenct update version
 export async function convertCurency(fromCurrency, toCurrency, units) {
 
     const response = await freecurrencyapi.latest({
