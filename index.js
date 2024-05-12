@@ -15,6 +15,7 @@ export async function convertCurency(fromCurrency, toCurrency, units) {
         base_currency: fromCurrency,
         currencies: toCurrency
     });
+    
     const multiplier = response.data[toCurrency];
     return multiplier * units
     console.log(multiplier);            
