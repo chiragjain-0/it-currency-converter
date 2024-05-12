@@ -9,9 +9,7 @@ const freecurrencyapi = new Freecurrencyapi('fca_live_VbsGyIOCgvkyxiOyIe5bZQrYom
 // convert currenct update version
 export async function convertCurency(fromCurrency, toCurrency, units) {
 
-    const response = await freecurrencyapi.latest({
-        
-        
+    const response = await freecurrencyapi.latest({       
         base_currency: fromCurrency,
         currencies: toCurrency
     });
